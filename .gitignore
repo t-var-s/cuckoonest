@@ -1,2 +1,5 @@
+/vendor
+/nests
+/cache
 .env
 .DS_Store
