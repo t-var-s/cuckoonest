@@ -90,7 +90,7 @@ class CuckooNest{
         $url = $this->target_base_url.$this->status['username'];
         $page = hQuery::fromUrl($url, [
             "Accept" => "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-            "User-Agent" => "BlueBirb"
+            "User-Agent" => "CuckooNest"
         ]);
         if(!$page){
             return $this->issue("No 200 response from ".$url);
